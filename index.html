@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Plan My Week!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
+  <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-auth.js"></script>
+  <script>
+    var config = {
+      apiKey: "AIzaSyD-r67rwksPUwfUrC6CgYFcZ-G5OroIAsQ",
+      authDomain: "plan-my-week-d76d4.firebaseapp.com",
+      databaseURL: "https://plan-my-week-d76d4.firebaseio.com",
+      projectId: "plan-my-week-d76d4",
+      storageBucket: "plan-my-week-d76d4.appspot.com",
+      messagingSenderId: "309580572182"
+    };
+    firebase.initializeApp(config);
+  </script>
+</head>
+<body>
+  <form class="sign-up-form">
+    <label for="">E-mail:</label>
+    <input type="text" name="" id="sign-up-name">
+    <label for="">Senha:</label>
+    <input type="password" name="" id="signup-password">
+    <button>Cadastrar</button>
+  </form>
+  <script src="js/app.js"></script>
+</body>
+</html>
